@@ -1,5 +1,7 @@
-# Docker for Oracle ServerJRE:8 with CentOS
+# Oracle Server JRE with CentOS
 
 ### Description
 
-This is the basic container for playniuniu/weblogic-base:12
+This docker image contains Oracle Server JRE and use CentOS based system. 
+
+This docker image is used for [playniuniu/weblogic-base](https://hub.docker.com/r/playniuniu/weblogic-base/)
