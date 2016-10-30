@@ -6,7 +6,7 @@ ENV ORACLE_SERVER_JRE8_URL="http://download.oracle.com/otn-pub/java/jdk/8u112-b1
     JAVA=/opt/jre/bin \
     PATH=${PATH}:/opt/jre/bin
 
-RUN yum install curl -y \
+RUN yum install curl unzip -y \
     && mkdir ~/downloads/ \
     && cd ~/downloads/ \
     && curl -jk#SLH "Cookie: oraclelicense=accept-securebackup-cookie" -o jre.tar.gz ${ORACLE_SERVER_JRE8_URL} \
